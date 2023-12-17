@@ -1,0 +1,38 @@
+**Backend flow 
+Create the circuit 
+Compile the circuit 
+Add Files
+Genrate witness
+Test the circuit
+Cretae Test Deplpoy Smart Contract
+
+
+**FrontEnd
+Writ ethe Front end in react
+Add Zero Knwoledge to it 
+Connect it withn smart Contract
+Deplpoy
+
+*Witness
+The Witness is the secret Knowledge that I am giving inside the cirscuit like (age is 18)
+
+*Challenge 
+The answers and questions to check for th claims
+
+*Verifier 
+The person tat asks questiona and verifiers the proofs
+
+
+**Non Interactive ZK proofs 
+The proofs that do not require and intercation between the Proover and the Verifier 
+In this the smart contract acts as the verifier to verifier whether the prrof generate bythe verifier is valid or not 
+
+Circuit --> r1cs --> snarkjs --> Verifier and Proover
+
+By compiling we get r1cs that generates witness using snarkjs 
+Then we do the setup and generate keys and verifier and proover 
+
+
+
+
+Powres of Tau is use dofr creating a trusted setup and in that Phase 1 is importnat and Phase 2 is optional 
