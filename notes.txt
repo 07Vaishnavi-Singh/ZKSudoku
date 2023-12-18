@@ -36,3 +36,6 @@ Then we do the setup and generate keys and verifier and proover
 
 
 Powres of Tau is use dofr creating a trusted setup and in that Phase 1 is importnat and Phase 2 is optional 
+
+
+After the witnesss if created we will do the setup and generate the keys
