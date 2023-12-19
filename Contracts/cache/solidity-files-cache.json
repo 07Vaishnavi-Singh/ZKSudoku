@@ -1,0 +1,76 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Vaishnavi Singh\\OneDrive\\Desktop\\ZKKLearning\\ZKSudokuGame\\SudokuGame\\Contracts\\contracts\\Sudoku.sol": {
+      "lastModificationDate": 1702990585812,
+      "contentHash": "cc67a6356de7c4c99f69267a32af4d62",
+      "sourceName": "contracts/Sudoku.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "IVerifier",
+        "Sudoku"
+      ]
+    },
+    "C:\\Users\\Vaishnavi Singh\\OneDrive\\Desktop\\ZKKLearning\\ZKSudokuGame\\SudokuGame\\Contracts\\contracts\\SudokuVerifier.sol": {
+      "lastModificationDate": 1702984195603,
+      "contentHash": "9cbf1b2e14f3c768a767a9e9ffb26562",
+      "sourceName": "contracts/SudokuVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "SudokuVerifier"
+      ]
+    }
+  }
+}

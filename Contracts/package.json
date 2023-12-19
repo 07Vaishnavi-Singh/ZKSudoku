@@ -2,6 +2,10 @@
   "name": "hardhat-project",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "hardhat": "^2.19.2"
+    "hardhat": "^2.19.2",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "snarkjs": "^0.7.2"
   }
 }

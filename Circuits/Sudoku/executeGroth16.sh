@@ -3,16 +3,16 @@
 # Variable declaration
 GREETING="===========================SHELL SCRIPT RUNNING================================="
 # Print the greeting to the console
-CIRCUIT = Sudoku
-PTAU = 12
-if ["$1"]; then
-CIRCUIT= $1
-fi
-if ["$2"]; then
-PTAU= $2
-fi
+# CIRCUIT = Sudoku
+# PTAU = 12
+# if ["$1"]; then
+# CIRCUIT= $1
+# fi
+# if ["$2"]; then
+# PTAU= $2
+# fi
 # check if the necessary PTAU file exists 
-if [-f ./ptau/powersOfTau28_hex_final_${PTAU}.ptau]; then 
+if [ ./ptau/powersOfTau28_hex_final_${PTAU}.ptau]; then 
 echo "====================The powers of tau fuile already exists====================="
 else
 echo "=======Downloading the PTAI Files=========================="
@@ -42,7 +42,7 @@ sed -i 's/0.6.11;/0.8.4;/g' SudokuVerifier.sol
 sed -i 's/contract Verifier/contract sudokuVerifier/g' SudokuVerifier.sol 
 # generate and print parameters of call
 echo "==================Generate and print parameters of call========================"
-snarkjs generatecall | tee parameters.txt
+snarkjs generatecall  | tee parameters.txt
 
 
 
